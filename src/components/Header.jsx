@@ -3,7 +3,7 @@ import '../styles/Header.scss'
 
 const Header = ({ titelName }) => (
   <div className='title-container'>
-    <h1 className="title">{titelName}</h1>
+    <h1 className='title'>{titelName}</h1>
   </div>
 );
 

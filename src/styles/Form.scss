@@ -1,13 +1,11 @@
 @import './colors.scss';
+
 .form-container {
     display: flex;
-    justify-content: center;
-
-    .form-input-container {
-        display: inline-flex;
-        background-color: $light-gray;
-        padding: 20px;
-    
+    justify-content: space-between;
+    background-color: $light-gray;
+    padding: 10px;
+     
         .form-grid-container {
             display: grid;
             grid-template-columns: 1fr 1fr ;
@@ -26,17 +24,13 @@
         }
     
         .form-button {
-            height: fit-content;
             align-self: center;
             padding: 7px 15px;
-            margin-left: 150px;
             background-color: $orange;
             color: white;
             border: 1.5px solid $orange;
             border-radius: 15px;
         }
-    }
-
 }
 
 

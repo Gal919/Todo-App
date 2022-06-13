@@ -1,0 +1,8 @@
+@import './colors.scss';
+
+.todo-list-container {
+    display: grid;
+    justify-content: center;
+    grid-auto-columns: 50%;
+    row-gap: 5px;
+}

@@ -1,12 +1,12 @@
 import Header from './components/Header';
-import Form from './components/Form';
 import './styles/App.scss';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
     <div>
       <Header titelName= 'My Todos'/>
-      <Form />
+      <TodoList />
     </div>
   );
 }
